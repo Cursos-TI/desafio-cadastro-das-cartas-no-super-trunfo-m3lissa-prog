@@ -3,14 +3,17 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 
-int main(
-
+int main(){
+    
     char codigo[4];        //Código da carta
+    int carta1;            //Carta 1
+    int carta2;            //Carta2
     int populacao;         //População
     int area;              //Área
     float PIB;             //PIB
     int pontos_turisticos; //Pontos Turísiticos
-) {
+} 
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
