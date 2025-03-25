@@ -4,6 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 
 int main(){
+    printf("Jogo Super Trunfo de Países \n");
     
     char codigo[4];        //Código da carta
     int carta1;            //Carta 1
@@ -17,19 +18,19 @@ int main(){
     //Cadastro da primeira carta
     printf("Cadastro da primeira carta \n");
     printf("Digite o código da carta (ex:A01): \n");
-    scanf("%s", carta1, &codigo);
+    scanf("%s", codigo);
 
     printf("Digite a população: \n");
-    scanf("%d", carta1 &populacao);
+    scanf("%d", populacao);
 
     printf("Digite a área: \n");
-    scanf("%d", carta1, &area);
+    scanf("%d", area);
 
     printf("Digite o PIB: \n");
-    scanf("%f", carta1, &PIB);
+    scanf("%f", PIB);
 
     printf("Digite o número de pontos turísticos: \n");
-    scanf("%d", carta1, &pontos_turisticos);
+    scanf("%d", pontos_turisticos);
 
     printf("Código da carta: %s");
     printf("População: %d");
